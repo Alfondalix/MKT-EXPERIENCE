@@ -1,0 +1,165 @@
+@font-face {
+  font-family: 'fuente-logo';
+  src: url('../fonts/Devil\ Breeze\ Bold.ttf');
+}
+@font-face {
+  font-family: 'fuente-contenido';
+  src: url('../fonts/FuturaBookBT.ttf');
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: fuente-contenido;
+}
+
+/* NAV */
+.logo {
+  width: 150px;
+  margin-top: -40px;
+}
+.right,
+.sidebar {
+  color: #1f225b;
+}
+a {
+  text-decoration: none;
+}
+
+.nav-grande li {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.nav-chico li {
+  text-transform: uppercase;
+}
+
+/*End Nav*/
+
+/* MISION + VISION + NOSOTROS */
+.mkt-titulo {
+  margin-bottom: 25px;
+  margin-top: 40px;
+  font-family: fuente-logo;
+}
+.mkt-sub {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.para1 {
+  height: 48vh;
+}
+.nosotros {
+  width: 100%;
+}
+.nosotros-row {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.mision-row {
+  margin-top: 0;
+  background-color: rgb(232, 232, 232);
+  padding-bottom: 3rem;
+}
+.mision-row h3 {
+  margin-top: 5rem;
+}
+.para2 {
+  height: 60vh;
+}
+.vision-content {
+  margin-top: 80px;
+}
+
+/* END MISION */
+
+/* PLANES */
+
+.planes-row {
+  background-color: rgb(232, 232, 232);
+  padding-bottom: 70px;
+}
+.planes-titulo {
+  margin-bottom: 50px !important;
+}
+.contenido li {
+  margin: 10px auto;
+}
+.vid {
+  width: 100%;
+  height: 60vh;
+}
+.plan-p {
+  font-size: small !important;
+}
+
+.adicionales-titulo {
+  margin-bottom: 50px !important;
+  text-decoration: underline;
+}
+.adicional-sub {
+  font-size: 18px;
+}
+/* END PLANES */
+.para3 {
+  height: 380px;
+}
+.para3-img {
+  object-fit: cover !important;
+}
+
+/* CLIENTES */
+
+.clientes-row img {
+  width: 80%;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+.clientes-row h3 {
+  margin-bottom: 50px;
+}
+/* END OF CLIENTES */
+
+/* CONTACTO */
+.contacto-img {
+  object-fit: contain;
+  width: 100%;
+}
+.contacto-row i {
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  color: black;
+}
+.contacto-sub {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.contacto-row {
+  background-color: rgb(175, 166, 166);
+}
+.row-contacto {
+  background-color: rgb(232, 232, 232);
+  margin-bottom: 0px;
+  padding-bottom: 0;
+}
+.redes span {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* END CONTACTO */
+/* Mobile version */
+@media (max-width: 576px) {
+  html {
+    scroll-behavior: auto;
+  }
+  .vision-sub {
+    margin-bottom: 45px;
+  }
+}
