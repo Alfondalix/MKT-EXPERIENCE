@@ -72,6 +72,9 @@ a {
 .para2 {
   height: 60vh;
 }
+.para2 img {
+  width: 50%;
+}
 .vision-content {
   margin-top: 80px;
 }
@@ -103,7 +106,7 @@ a {
   text-decoration: underline;
 }
 .adicional-sub {
-  font-size: 18px;
+  font-size: 16px;
 }
 /* END PLANES */
 .para3 {
@@ -131,7 +134,7 @@ a {
   width: 100%;
 }
 .contacto-row i {
-  font-size: 30px;
+  font-size: 24px;
   margin-bottom: 30px;
   margin-top: 15px;
   color: black;
@@ -150,8 +153,7 @@ a {
 }
 .redes span {
   margin-left: 10px;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 16px;
 }
 /* END CONTACTO */
 /* Mobile version */
@@ -161,5 +163,12 @@ a {
   }
   .vision-sub {
     margin-bottom: 45px;
+  }
+  .para1 {
+    height: 35vh;
+  }
+
+  .para2 {
+    height: 35vh;
   }
 }
