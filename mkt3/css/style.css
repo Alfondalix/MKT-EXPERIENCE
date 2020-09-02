@@ -1,11 +1,3 @@
-@font-face {
-  font-family: 'fuente-logo';
-  src: url('../fonts/Devil\ Breeze\ Bold.ttf');
-}
-@font-face {
-  font-family: 'fuente-contenido';
-  src: url('../fonts/FuturaBookBT.ttf');
-}
 * {
   padding: 0;
   margin: 0;
@@ -14,17 +6,19 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-  font-family: fuente-contenido;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* NAV */
 .logo {
-  width: 150px;
-  margin-top: -40px;
+  width: 180px;
+  margin-top: -57px;
+  margin-left: -60px;
+  cursor: auto;
 }
 .right,
 .sidebar {
-  color: #1f225b;
+  color: #f8f8f8;
 }
 a {
   text-decoration: none;
@@ -44,11 +38,15 @@ a {
 .mkt-titulo {
   margin-bottom: 25px;
   margin-top: 40px;
-  font-family: fuente-logo;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 .mkt-sub {
   margin-top: 20px;
   margin-bottom: 50px;
+}
+.titulo-n {
+  font-weight: 700;
 }
 
 .para1 {
@@ -170,5 +168,15 @@ a {
 
   .para2 {
     height: 35vh;
+  }
+  .logo {
+    margin-top: -62px;
+    margin-left: 0;
+  }
+  .sidenav {
+    background-color: #e2d1d1;
+  }
+  .sidenav li > a {
+    font-weight: 700;
   }
 }
