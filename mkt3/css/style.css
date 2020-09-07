@@ -79,6 +79,26 @@ a {
 
 /* END MISION */
 
+/* Whatsapp */
+
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 13px;
+}
+
 /* PLANES */
 
 .planes-row {
@@ -174,9 +194,19 @@ a {
     margin-left: 0;
   }
   .sidenav {
-    background-color: #e2d1d1;
+    background-color: #212121;
   }
   .sidenav li > a {
     font-weight: 700;
+  }
+  nav {
+    position: fixed;
+    z-index: 1500;
+  }
+  /* .contenido {
+    top: 50%;
+  } */
+  .mkt-titulo {
+    margin-top: 80px;
   }
 }
